@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "title": "Mate Uruguayo",
+        "price": 7500,
+        "material": "Calabaza",
+        "measures": "Puede variar dependiendo la calabaza",
+        "pictureUrl": "../images/products/mate-calabaza.jpg",
+        "alt": "Mate uruguayo de calabaza",
+        "stock": 5,
+        "category": "mates"
+    },
+    {
+        "id": 2,
+        "title": "Mate Uruguayo",
+        "price": 6750,
+        "material": "Calabaza",
+        "measures": "Puede variar dependiendo la calabaza",
+        "pictureUrl": "../images/products/mate-calabaza-2.jpg",
+        "alt": "Mate uruguayo de calabaza",
+        "stock": 5,
+        "category": "mates"
+    },
+    {
+        "id": 3,
+        "title": "Mate Uruguayo",
+        "price": 6250,
+        "material": "Calabaza",
+        "measures": "Puede variar dependiendo la calabaza",
+        "pictureUrl": "../images/products/mate-calabaza-3.jpg",
+        "alt": "Mate uruguayo de calabaza",
+        "stock": 5,
+        "category": "mates"
+    },
+    {
+        "id": 4,
+        "title": "Mate Imperial",
+        "price": 9250,
+        "material": "Calabaza",
+        "measures": "Puede variar dependiendo la calabaza",
+        "pictureUrl": "../images/products/mate-imperial.jpg",
+        "alt": "Mate imperial de calabaza",
+        "stock": 5,
+        "category": "mates"
+    },
+    {
+        "id": 5,
+        "title": "Bombilla Tambor",
+        "price": 1500,
+        "material": "Acero inoxidable",
+        "measures": "19 cm",
+        "pictureUrl": "../images/products/bombilla1.jpg",
+        "alt": "Bombilla tambor de acero inoxidable",
+        "stock": 5,
+        "category": "bombillas"
+    },
+    {
+        "id": 6,
+        "title": "Bombilla Hexagonal",
+        "price": 2500,
+        "material": "Acero inoxidable",
+        "measures": "16 cm",
+        "pictureUrl": "../images/products/bombilla2.jpg",
+        "alt": "Bombilla hexagonal de acero inoxidable",
+        "stock": 5,
+        "category": "bombillas"
+    },
+    {
+        "id": 7,
+        "title": "Bombilla Estribo",
+        "price": 3500,
+        "material": "Alpaca",
+        "measures": "15 cm",
+        "pictureUrl": "../images/products/bombilla3.jpg",
+        "alt": "Bombilla estribo de alpaca",
+        "stock": 5,
+        "category": "bombillas"
+    },
+    {
+        "id": 8,
+        "title": "Bombilla Estribo",
+        "price": 2500,
+        "material": "Acero inoxidable",
+        "measures": "13 mts",
+        "pictureUrl": "../images/products/bombilla4.jpg",
+        "alt": "Bombilla estribo de acero inoxidable",
+        "stock": 5,
+        "category": "bombillas"
+    },
+    {
+        "id": 9,
+        "title": "Yerbero Cuero",
+        "price": 2000,
+        "material": "Cuero",
+        "measures": "300 gr",
+        "pictureUrl": "../images/products/yerbera1.jpg",
+        "alt": "Yerbero de cuero",
+        "stock": 5,
+        "category": "yerberos"
+    },
+    {
+        "id": 10,
+        "title": "Yerbero Cuero",
+        "price": 2200,
+        "material": "Cuero gamuzado",
+        "measures": "500 gr",
+        "pictureUrl": "../images/products/yerbera2.jpg",
+        "alt": "Yerbero de cuero gamuzado",
+        "stock": 5,
+        "category": "yerberos"
+    },
+    {
+        "id": 11,
+        "title": "Yerbero Cuero",
+        "price": 2300,
+        "material": "Cuero",
+        "measures": "500 gr",
+        "pictureUrl": "../images/products/yerbera3.jpg",
+        "alt": "Yerbero de cuero",
+        "stock": 5,
+        "category": "yerberos"
+    },
+    {
+        "id": 12,
+        "title": "Yerbero Cuero",
+        "price": 1900,
+        "material": "Cuero gamuzado",
+        "measures": "400 gr",
+        "pictureUrl": "../images/products/yerbera4.jpg",
+        "alt": "Yerbero de cuero gamuzado",
+        "stock": 5,
+        "category": "yerberos"
+    }
+]
