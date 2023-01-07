@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "index": 1,
         "title": "Mate Uruguayo",
         "price": 7500,
         "material": "Calabaza",
@@ -11,7 +11,7 @@
         "category": "mates"
     },
     {
-        "id": 2,
+        "index": 2,
         "title": "Mate Uruguayo",
         "price": 6750,
         "material": "Calabaza",
@@ -22,7 +22,7 @@
         "category": "mates"
     },
     {
-        "id": 3,
+        "index": 3,
         "title": "Mate Uruguayo",
         "price": 6250,
         "material": "Calabaza",
@@ -33,7 +33,7 @@
         "category": "mates"
     },
     {
-        "id": 4,
+        "index": 4,
         "title": "Mate Imperial",
         "price": 9250,
         "material": "Calabaza",
@@ -44,7 +44,7 @@
         "category": "mates"
     },
     {
-        "id": 5,
+        "index": 5,
         "title": "Bombilla Tambor",
         "price": 1500,
         "material": "Acero inoxidable",
@@ -55,7 +55,7 @@
         "category": "bombillas"
     },
     {
-        "id": 6,
+        "index": 6,
         "title": "Bombilla Hexagonal",
         "price": 2500,
         "material": "Acero inoxidable",
@@ -66,7 +66,7 @@
         "category": "bombillas"
     },
     {
-        "id": 7,
+        "index": 7,
         "title": "Bombilla Estribo",
         "price": 3500,
         "material": "Alpaca",
@@ -77,7 +77,7 @@
         "category": "bombillas"
     },
     {
-        "id": 8,
+        "index": 8,
         "title": "Bombilla Estribo",
         "price": 2500,
         "material": "Acero inoxidable",
@@ -88,7 +88,7 @@
         "category": "bombillas"
     },
     {
-        "id": 9,
+        "index": 9,
         "title": "Yerbero Cuero",
         "price": 2000,
         "material": "Cuero",
@@ -99,7 +99,7 @@
         "category": "yerberos"
     },
     {
-        "id": 10,
+        "index": 10,
         "title": "Yerbero Cuero",
         "price": 2200,
         "material": "Cuero gamuzado",
@@ -110,7 +110,7 @@
         "category": "yerberos"
     },
     {
-        "id": 11,
+        "index": 11,
         "title": "Yerbero Cuero",
         "price": 2300,
         "material": "Cuero",
@@ -121,7 +121,7 @@
         "category": "yerberos"
     },
     {
-        "id": 12,
+        "index": 12,
         "title": "Yerbero Cuero",
         "price": 1900,
         "material": "Cuero gamuzado",

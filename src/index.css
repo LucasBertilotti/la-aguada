@@ -23,14 +23,50 @@
 	border-radius: .5rem;
 	box-shadow: #0e1e251f 0px 2px 4px 0px, #0e1e2552 0px 2px 16px 0px;
 }
+/******ItemDetail******/
+.cardDetailProducto{
+  border-radius: .5rem;
+  width: 35%;
+  background-color: #fff;
+  box-shadow: #0e1e251f 0px 2px 4px 0px, #0e1e2552 0px 2px 16px 0px;
+}
+.cardDetailProducto img{
+  width: 95%;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px){
+  .cardDetailProducto{
+    width: 50%;
+  }
+  /*
+  .quantity, .count{
+    display: inline-block !important;
+  }
+  .addButton, .completeButton{
+    margin-top: .5rem;
+  }*/
+}
+/**/
+@media all and (max-width: 1000px){
+  .cardDetailProducto{
+    width: 70%;
+  }
+  .quantity, .count{
+    display: inline-block !important;
+  }
+  .addButton, .completeButton{
+    margin-top: .5rem;
+  }
+}
+
 .cardsProductos:hover{
   transform: scale(1.1);
 }
 .cardsProductos img{
   border-radius: .5rem;
   margin: auto;
-   width: 210px;
-   height: 200px;	
+  width: 210px;
+  height: 200px;	
  }
  .cardsProductos h3, p {
   font-size: 1rem;
@@ -44,21 +80,28 @@
 }
 .count{
   margin-bottom: 0;
-  font-size: .8rem;
 }
 .itemsButton{
   font-size: .8rem;
-  width: 1rem;
-  height: 1.5rem;
   background-color: transparent;
   border: 1px solid #666;
 }
+.itemsButton:hover, .addButton:hover, .completeButton:hover{
+  background-color: #201b1b;
+  color: #fff;
+}
 .addButton{
   border: 1px solid #666;
-  height: 1.5rem;
-  font-size: .8rem;
 }
 
+/******Complete Button/******/
+.completeButton{
+  background-color: transparent;
+  text-decoration: none;
+  color: #000
+  ;
+  border: 1px solid #666;  
+}
 /******Footer******/
 .footer{
   background-color: #5f4e4e
