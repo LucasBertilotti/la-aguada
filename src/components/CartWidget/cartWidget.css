@@ -1,0 +1,9 @@
+.botonesHeader{
+    border: 1px solid #000;
+}
+.botonesHeader:hover{
+    background-color: #fff;
+}
+.cartEmpty{
+    width: 36px;
+}

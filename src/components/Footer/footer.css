@@ -1,0 +1,37 @@
+.footer{
+  background-color: #969191;
+}
+.footer p{
+  color: #000;
+  font-size: .8rem;
+  margin: 0;
+}  
+.informacionFooter{
+  padding-top: 1rem;
+  background-color: #c8c0c0;
+}
+.informacionFooter p img{
+  width: 20px;
+  margin-right: 10px;
+}
+  
+.socialMedia{
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  line-height: 1.9rem;
+  margin: 0 .3rem 1rem 0;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px rgba(0, 0, 0, .2) solid;
+  transition: 450ms ease-in-out;
+}
+.socialMedia:hover{
+  background-color: #ffffff;
+  transition: 450ms ease-in-out;
+}
+.mediosPago img{
+  margin-left: .9rem;
+  width: 40px;
+  height: 40px;
+}

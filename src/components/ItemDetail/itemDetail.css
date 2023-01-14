@@ -1,0 +1,22 @@
+.cardDetailProducto{
+    border-radius: .5rem;
+    width: 35%;
+    background-color: #fff;
+    box-shadow: #0e1e251f 0px 2px 4px 0px, #0e1e2552 0px 2px 16px 0px;
+}
+.cardDetailProducto img{
+    width: 95%;
+}
+@media screen and (min-width: 501px) and (max-width: 1000px){
+    .cardDetailProducto{
+        width: 50%;
+    }
+}
+@media all and (max-width: 1000px){
+    .cardDetailProducto{
+        width: 70%;
+    }
+    .quantity, .count{
+        display: inline-block !important;
+    }
+}

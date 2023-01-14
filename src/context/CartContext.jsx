@@ -1,5 +1,4 @@
-import React, { Children } from "react";
-
+import React from "react";
 
 export const CartContext = React.createContext();
 
@@ -36,8 +35,14 @@ const CartContextProvider = ({children}) => {
         return cart.reduce((acc, cur) => acc += cur.quantity * cur.price, 0);
     }
 
+    const shipping =() => {
+        return Math.floor((Math.random() * (1500 - 1000 + 1)) + 1000);
+    }
+
+    let shippingCost = shipping()
+
     return (
-        <CartContext.Provider value={{addItem, removeItem, clear, cartTotal, sumTotal,cart}}>
+        <CartContext.Provider value={{addItem, removeItem, clear, cartTotal, sumTotal, cart, shippingCost}}>
             {children}
         </CartContext.Provider>
     );

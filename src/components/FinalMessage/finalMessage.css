@@ -1,0 +1,15 @@
+.finalMessageButton{
+    padding: .8rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-size: .8rem;
+    background-color: #3483fa;
+    color: #fff;
+}
+.finalMessageButton:hover{
+    background-color: #2f7aeb;
+    color: #fff;
+}
+.marginBottom{
+    margin-bottom: 200px;
+}

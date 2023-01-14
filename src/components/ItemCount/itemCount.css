@@ -1,0 +1,19 @@
+.itemsCountBtn{
+    padding: .7rem;
+    border: none;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: .8rem;
+    background-color: #3483fa;
+    color: #fff;
+}
+.itemsCountBtn:hover{
+    background-color: #2f7aeb;
+    color: #fff;
+}
+
+.quantity{ 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}

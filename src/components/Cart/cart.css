@@ -1,0 +1,32 @@
+.backgroundCart{
+  background-color: #fff;
+  border-radius: 1rem;
+}
+.heightCart{
+  height: 70px;
+}
+.itemCart{
+  background-color: #fff;
+  width: 70px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: .5rem;
+}
+.cartButton{
+  padding: .8rem;
+  border-radius: .5rem;
+  text-decoration: none;
+  font-size: .8rem;
+  background-color: #3483fa;
+  color: #fff;
+}
+.cartButton:hover{
+  background-color: #2f7aeb;
+  color: #fff;
+}
+.cartItems{
+  color: #3483fa;
+}
+.cartButtonEmpty{
+  margin-bottom: 200px;
+}

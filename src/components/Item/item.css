@@ -1,0 +1,32 @@
+.cardsProductos {
+  width: 215px;
+  margin: 20px auto;
+  background-color: #fff;
+  transition: all 450ms ease-in-out;
+  border-radius: .5rem;
+  box-shadow: #0e1e251f 0px 2px 4px 0px, #0e1e2552 0px 2px 16px 0px;
+}
+.cardsProductos:hover{
+  transform: scale(1.1);
+}
+.cardsProductos img{
+  border-radius: .5rem;
+  margin: auto;
+  width: 210px;
+  height: 200px;	
+}
+ .cardsProductos h3, p {
+  font-size: 1rem;
+}
+.itemsButton{
+  padding: .6rem;
+  border-radius: .5rem;
+  text-decoration: none;
+  font-size: .8rem;
+  background-color: #3483fa;
+  color: #fff;
+}
+.itemsButton:hover{
+  background-color: #2f7aeb;
+  color: #fff;
+}

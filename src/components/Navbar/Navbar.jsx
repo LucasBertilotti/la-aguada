@@ -1,13 +1,16 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import CartWidget from "./CartWidget";
+import CartWidget from "../CartWidget/CartWidget";
+import './navbar.css'
 
 const Navbar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg header container-fluid">
                 <div className="container">
-                    <Link className="navbar-brand" to={"/"}>La Aguada</Link>
+                    <Link className="navbar-brand fw-bold" to={"/"}>
+                        <img src="/images/la-aguada-logo4.png" className="logo" alt="Carrito de compras"/>
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -19,11 +22,11 @@ const Navbar = () => {
                             <NavLink className="nav-link" to={"/category/yerberos"}>Yerberos</NavLink>
                         </div>
                     </div>
-                    <CartWidget/>
+                    <CartWidget/>   
                 </div>
             </nav>
         </div>
-    )
+    );
 }
 
 export default Navbar;
